@@ -7,7 +7,7 @@
 			"type": "process",
 			"args": [
 				"build",
-				"${workspaceFolder}/Transaction.Api/Transaction.Api.csproj",
+				"${workspaceFolder}/HotelManagement.API/HotelManagement.API.csproj",
 				"/property:GenerateFullPaths=true",
 				"/consoleloggerparameters:NoSummary"
 			],
@@ -19,7 +19,7 @@
 			"type": "process",
 			"args": [
 				"publish",
-				"${workspaceFolder}/Transaction.Api/Transaction.Api.csproj",
+				"${workspaceFolder}/HotelManagement.API/HotelManagement.API.csproj",
 				"/property:GenerateFullPaths=true",
 				"/consoleloggerparameters:NoSummary"
 			],
@@ -33,7 +33,7 @@
 				"watch",
 				"run",
 				"--project",
-				"${workspaceFolder}/Transaction.Api/Transaction.Api.csproj"
+				"${workspaceFolder}/HotelManagement.API/HotelManagement.API.csproj"
 			],
 			"problemMatcher": "$msCompile"
 		}

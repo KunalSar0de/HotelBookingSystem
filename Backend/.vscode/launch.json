@@ -9,9 +9,9 @@
 			"type": "coreclr",
 			"request": "launch",
 			"preLaunchTask": "build",
-			"program": "${workspaceFolder}/Transaction.Api/bin/Debug/net6.0/Transaction.Api.dll",
+			"program": "${workspaceFolder}/HotelManagement.API/bin/Debug/net6.0/HotelManagement.API.dll",
 			"args": [],
-			"cwd": "${workspaceFolder}/Transaction.Api",
+			"cwd": "${workspaceFolder}/HotelManagement.API",
 			"stopAtEntry": false,
 			"serverReadyAction": {
 				"action": "openExternally",
