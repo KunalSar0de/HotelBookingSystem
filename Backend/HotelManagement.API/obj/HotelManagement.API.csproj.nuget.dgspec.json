@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj": {}
+    "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj": {}
   },
   "projects": {
-    "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj": {
+    "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
+        "projectUniqueName": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
         "projectName": "HotelManagement.API",
-        "projectPath": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
+        "projectPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
         "packagesPath": "C:\\Users\\kunal.sarode\\.nuget\\packages\\",
-        "outputPath": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\obj\\",
+        "outputPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kunal.sarode\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj": {
-                "projectPath": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj"
+              "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj": {
+                "projectPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj": {
+    "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj",
+        "projectUniqueName": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj",
         "projectName": "HotelManagement",
-        "projectPath": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj",
+        "projectPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj",
         "packagesPath": "C:\\Users\\kunal.sarode\\.nuget\\packages\\",
-        "outputPath": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\obj\\",
+        "outputPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kunal.sarode\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -125,6 +125,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.4.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
             },
             "Hashids.net": {
               "target": "Package",

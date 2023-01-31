@@ -1,11 +1,11 @@
+D:\Own\Hotel Booking System\Backend\HotelManagement\bin\Debug\net6.0\HotelManagement.deps.json
+D:\Own\Hotel Booking System\Backend\HotelManagement\bin\Debug\net6.0\HotelManagement.dll
+D:\Own\Hotel Booking System\Backend\HotelManagement\bin\Debug\net6.0\HotelManagement.pdb
 D:\Own\Hotel Booking System\Backend\HotelManagement\obj\Debug\net6.0\HotelManagement.csproj.AssemblyReference.cache
 D:\Own\Hotel Booking System\Backend\HotelManagement\obj\Debug\net6.0\HotelManagement.GeneratedMSBuildEditorConfig.editorconfig
 D:\Own\Hotel Booking System\Backend\HotelManagement\obj\Debug\net6.0\HotelManagement.AssemblyInfoInputs.cache
 D:\Own\Hotel Booking System\Backend\HotelManagement\obj\Debug\net6.0\HotelManagement.AssemblyInfo.cs
 D:\Own\Hotel Booking System\Backend\HotelManagement\obj\Debug\net6.0\HotelManagement.csproj.CoreCompileInputs.cache
-D:\Own\Hotel Booking System\Backend\HotelManagement\bin\Debug\net6.0\HotelManagement.deps.json
-D:\Own\Hotel Booking System\Backend\HotelManagement\bin\Debug\net6.0\HotelManagement.dll
-D:\Own\Hotel Booking System\Backend\HotelManagement\bin\Debug\net6.0\HotelManagement.pdb
 D:\Own\Hotel Booking System\Backend\HotelManagement\obj\Debug\net6.0\HotelManagement.dll
 D:\Own\Hotel Booking System\Backend\HotelManagement\obj\Debug\net6.0\refint\HotelManagement.dll
 D:\Own\Hotel Booking System\Backend\HotelManagement\obj\Debug\net6.0\HotelManagement.pdb

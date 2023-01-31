@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3F6ahiPOgAkP3i7J4sA7e9UXhwTaFfZWq/XeZFNamiH/Hvc9hGgQNwTld6mbbFSJVI1FDAdn6JrzgFDY0kOSmg==",
+  "dgSpecHash": "99YT3F0iqomEl7Kr6yBxp560X450mrw/pv9ClkBY/QuE+Vs7MVdOlEErVFHQTb/zIkSdy+qBWXv+N6BQaATbFA==",
   "success": true,
-  "projectFilePath": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
+  "projectFilePath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kunal.sarode\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\kunal.sarode\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\kunal.sarode\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\kunal.sarode\\.nuget\\packages\\hashids.net\\1.6.1\\hashids.net.1.6.1.nupkg.sha512",
     "C:\\Users\\kunal.sarode\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.14\\microsoft.aspnetcore.authentication.jwtbearer.3.1.14.nupkg.sha512",
     "C:\\Users\\kunal.sarode\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

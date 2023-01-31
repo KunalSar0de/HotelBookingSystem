@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "A/KCkOV8qcGX001Xwg0IogNdFq9+o5YGBadbq8lN2xXXUEGOba6B96w5HJHYQXJlIuUplDzZGsir+6F0JoJ0nA==",
+  "dgSpecHash": "mfJQTSjcGNyJWRwwdGT5wic08lLzBZcYLn2lvsktDkvAwdqzs1l2M6WF0+kCXP2XWyR+dInGIaz9AzxMdgNpCw==",
   "success": true,
-  "projectFilePath": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj",
+  "projectFilePath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kunal.sarode\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\kunal.sarode\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\kunal.sarode\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\kunal.sarode\\.nuget\\packages\\hashids.net\\1.6.1\\hashids.net.1.6.1.nupkg.sha512",
     "C:\\Users\\kunal.sarode\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\kunal.sarode\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

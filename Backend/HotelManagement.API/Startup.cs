@@ -68,6 +68,7 @@ namespace HotelManagement.API
 			});
 
 			ServiceRegistration.RegisterServices(services,Configuration);
+			ValidatorRegister.RegisterValidator(services,Configuration);
 			
 			
 

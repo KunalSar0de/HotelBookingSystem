@@ -15,6 +15,43 @@
           }
         }
       },
+      "FluentValidation.AspNetCore/11.2.2": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.2.1",
+          "FluentValidation.DependencyInjectionExtensions": "11.2.1"
+        },
+        "compile": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.2.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.2.1",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Hashids.net/1.6.1": {
         "type": "package",
         "compile": {
@@ -1682,6 +1719,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "FluentValidation": "11.4.0",
+          "FluentValidation.AspNetCore": "11.2.2",
           "Hashids.net": "1.6.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.14"
         },
@@ -1716,6 +1754,42 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/11.2.2": {
+      "sha512": "jU/MHXqg9cnOU18dY75vorP2c2WDKMan4zegOPsoc34xZVjzTEtXP0fKvkDEdeaChUVooNWuRr27u9w3sYbEFA==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/11.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/net6.0/FluentValidation.AspNetCore.dll",
+        "lib/net6.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.2.1": {
+      "sha512": "WqR2kt0OidUCg9xS+YOoiDmdCu7EnYLLgQb/bX+5fTTVor+90dWmr1OdJaWlLZvg2nbwV9EfxA9FZp91+JmQtg==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
     "Hashids.net/1.6.1": {
@@ -5738,11 +5812,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
+      "projectUniqueName": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
       "projectName": "HotelManagement.API",
-      "projectPath": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
+      "projectPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
       "packagesPath": "C:\\Users\\kunal.sarode\\.nuget\\packages\\",
-      "outputPath": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\obj\\",
+      "outputPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kunal.sarode\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5757,8 +5831,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj": {
-              "projectPath": "d:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj"
+            "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj": {
+              "projectPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj"
             }
           }
         }
