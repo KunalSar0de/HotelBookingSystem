@@ -22,7 +22,8 @@ namespace HotelManagement.API.src.EntityFramework
             var optionsBuilder = new DbContextOptionsBuilder();
 
             var connectionString = configuration.GetConnectionString("TransactionDatabase");
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseMySql(connectionString , x=>x.MigrationsAssembly("HotelManagement.API"));
+
             return new TransactionContext(optionsBuilder.Options);
         }
         

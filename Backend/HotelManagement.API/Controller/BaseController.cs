@@ -11,7 +11,7 @@ namespace HotelManagement.API.src.Controller
 	[Consumes("application/json")]
 	[Produces("application/json")]
 	[FormatFilter]
-    public class BaseController : ControllerBase
+    public class BaseController : Microsoft.AspNetCore.Mvc.Controller
     {
 		private readonly IIdEncodeAndDecode _idEncodeAndDecode;
 

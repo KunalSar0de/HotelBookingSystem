@@ -12,6 +12,10 @@ using HotelManagement.API.src.Assembler;
 using HotelManagement.EntityFramework;
 using HotelManagement.Models;
 using HotelManagementrc.Dto;
+using FluentValidation.AspNetCore;
+using System.Reflection;
+using Microsoft.AspNetCore.Mvc;
+using HotelManagement.API.Errors;
 
 namespace HotelManagement.API
 {
@@ -26,6 +30,13 @@ namespace HotelManagement.API
 
         public void ConfigureServices(IServiceCollection services)
         {
+			services.AddControllers()
+			.AddFluentValidation(x=>x.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly()));
+			// services.AddControllers(
+			// 		// options =>options.Filters.Add<ValidationFilter>()
+            //     )
+            //     .AddFluentValidation(x=>x.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly()));
+				
 			services.AddCors(
                 op => op.AddPolicy("All",
                 builder =>
@@ -39,12 +50,13 @@ namespace HotelManagement.API
                 })
             );
 
-	
+			
 
-            services.AddControllers().AddXmlDataContractSerializerFormatters();
+             
+            var connectionString = Configuration.GetConnectionString("TransactionDatabase");
 
 			services.AddDbContext<TransactionContext>(options => 
-			options.UseSqlServer(Configuration.GetConnectionString("TransactionDatabase"))
+			options.UseMySql(connectionString ,x=>x.MigrationsAssembly("HotelManagement.API"))
 			);
 
 
@@ -68,7 +80,7 @@ namespace HotelManagement.API
 			});
 
 			ServiceRegistration.RegisterServices(services,Configuration);
-			ValidatorRegister.RegisterValidator(services,Configuration);
+			// ValidatorRegister.RegisterValidator(services,Configuration);
 			
 			
 

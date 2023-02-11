@@ -14,18 +14,20 @@ using HotelManagement.Dto.Request;
 using HotelManagement.Enums;
 using HotelManagement.Models;
 using HotelManagement.Service;
+using HotelManagement.API.Validator;
 //https://www.c-sharpcorner.com/article/login-and-role-based-custom-authentication-in-asp-net-core-3-1/
 
 namespace HotelManagement.API.src.Controller
 {
-	public class SessionController : BaseController
+	[ApiController]
+	public class SessionController : ControllerBase
 	{
 		private readonly IConfiguration _configuration;
 		private readonly ICustomerService _customerService;
 		private readonly IJwtAuthenticationManager _jwtAuthenticationManager;
-		
+
 		private readonly IPasswordManagementService _passwordManagementService;
-		public SessionController(IIdEncodeAndDecode idEncodeAndDecode, IConfiguration configuration, ICustomerService customerService, IJwtAuthenticationManager jwtAuthenticationManager, IPasswordManagementService passwordManagementService) : base(idEncodeAndDecode)
+		public SessionController(IIdEncodeAndDecode idEncodeAndDecode, IConfiguration configuration, ICustomerService customerService, IJwtAuthenticationManager jwtAuthenticationManager, IPasswordManagementService passwordManagementService) //: base(idEncodeAndDecode)
 		{
 			_configuration = configuration;
 			_customerService = customerService;
@@ -35,25 +37,26 @@ namespace HotelManagement.API.src.Controller
 
 		[HttpPost]
 		[Route("user/session")]
-		public IActionResult Post([FromBody]LoginRequest loginRequest)
+		public IActionResult Post([FromBody] Validator.LoginRequest loginRequest)
 		{
-			if(loginRequest == null)
+
+			if (loginRequest == null)
 				return BadRequest();
 
-			var token = _jwtAuthenticationManager.Authenticate(loginRequest.UserName,loginRequest.Password);
+			var token = _jwtAuthenticationManager.Authenticate(loginRequest.UserName, loginRequest.Password);
 
-			if(token == null)
+			if (token == null)
 				return Unauthorized();
-				
+
 			return Ok(token);
 		}
-		
-		
+
+
 		[HttpPost]
 		[Route("user/resetpassword")]
 		public IActionResult ResetPassword(ResetPasswordRequest resetPasswordRequest)
 		{
-			var pass = _passwordManagementService.GeneratePassword("AdminUser@123",'1');
+			var pass = _passwordManagementService.GeneratePassword("AdminUser@123", '1');
 			return Ok();
 		}
 	}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj": {}
+    "D:\\Own\\HotelBookingSystem\\Backend\\HotelManagement.API\\HotelManagement.API.csproj": {}
   },
   "projects": {
-    "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj": {
+    "D:\\Own\\HotelBookingSystem\\Backend\\HotelManagement.API\\HotelManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
+        "projectUniqueName": "D:\\Own\\HotelBookingSystem\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
         "projectName": "HotelManagement.API",
-        "projectPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
+        "projectPath": "D:\\Own\\HotelBookingSystem\\Backend\\HotelManagement.API\\HotelManagement.API.csproj",
         "packagesPath": "C:\\Users\\kunal.sarode\\.nuget\\packages\\",
-        "outputPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement.API\\obj\\",
+        "outputPath": "D:\\Own\\HotelBookingSystem\\Backend\\HotelManagement.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kunal.sarode\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj": {
-                "projectPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj"
+              "D:\\Own\\HotelBookingSystem\\Backend\\HotelManagement\\HotelManagement.csproj": {
+                "projectPath": "D:\\Own\\HotelBookingSystem\\Backend\\HotelManagement\\HotelManagement.csproj"
               }
             }
           }
@@ -46,17 +46,15 @@
               "target": "Package",
               "version": "[3.1.14, )"
             },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.14, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.14, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.14, )"
             },
@@ -88,14 +86,14 @@
         }
       }
     },
-    "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj": {
+    "D:\\Own\\HotelBookingSystem\\Backend\\HotelManagement\\HotelManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj",
+        "projectUniqueName": "D:\\Own\\HotelBookingSystem\\Backend\\HotelManagement\\HotelManagement.csproj",
         "projectName": "HotelManagement",
-        "projectPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\HotelManagement.csproj",
+        "projectPath": "D:\\Own\\HotelBookingSystem\\Backend\\HotelManagement\\HotelManagement.csproj",
         "packagesPath": "C:\\Users\\kunal.sarode\\.nuget\\packages\\",
-        "outputPath": "D:\\Own\\Hotel Booking System\\Backend\\HotelManagement\\obj\\",
+        "outputPath": "D:\\Own\\HotelBookingSystem\\Backend\\HotelManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kunal.sarode\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -122,21 +120,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[11.4.0, )"
-            },
             "FluentValidation.AspNetCore": {
               "target": "Package",
-              "version": "[11.2.2, )"
+              "version": "[9.2.0, )"
             },
             "Hashids.net": {
               "target": "Package",
               "version": "[1.6.1, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.1.14, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
